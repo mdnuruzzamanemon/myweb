@@ -1,0 +1,376 @@
+.body, ul, li, a
+{
+    padding: 0;
+    margin: 0;
+}
+.head-bottom
+{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.back
+{
+    width: 100%;
+
+}
+.menu
+{
+    background-color: #0b4051;
+}
+.mid
+{
+    padding: 0 2%;
+}
+.mid a img 
+{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.menu ul 
+{
+    margin-right: 3%;
+}
+.menu ul li
+{
+    padding: 0 2%;
+}
+.menu ul li a
+{
+    color: #15e0ee;
+}
+.menu ul li a:hover
+{
+    color:chartreuse;
+    border-bottom:2px solid chartreuse;
+}
+.myself
+{
+    position: absolute;
+    
+    top: 20%;
+    left: 12%;
+}
+.gif-pic
+{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+.intro h2
+{
+    font-family: 'Sacramento', cursive;
+    color: #15e0ee;
+    padding: 20px 0px;
+}
+.intro p
+{
+    font-family: 'Merriweather', serif;
+    color: #15e0ee;
+}
+
+/* about section */
+.meDetails
+{
+    width: 40%;
+    margin: auto;
+    padding: 5% 0;
+}
+.about .meDetails img
+{
+    width: 20rem;
+    height: 20rem;
+    border: .8rem #15e0ee;
+    border-radius: 50%;
+    border-style: inset;
+}
+.about h3
+{
+    color: #15e0ee;
+    padding: 3% 0;
+    font-family: 'Merriweather', serif;
+    font-size: 2.8rem;
+}
+.about .meDetails p
+{
+    color: #0f7ea9;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+}
+
+/* skilss section */
+.skills
+{
+    position: relative;
+    background-color: #0c4b5c;
+    padding-bottom:2% ;
+    color: #15e0ee;
+}
+.skillHead
+{
+    width: 8rem;
+
+}
+.skillMid
+{
+    width: 55%;
+    margin: auto;
+}
+.skills .skillMid .skillHead h4
+{
+    border: 3px  #fff;
+    border-style: dashed solid;
+    margin: auto;
+    padding: 7% 0;
+}
+.top-hr
+{
+    border-bottom: 3px solid #fff;
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+}
+.bottom-hr
+{
+    border-top: 3px solid #fff;
+    width: 60%;
+    margin: auto;
+   
+}
+
+.design-dev, .competitive
+{
+    padding-top: 12%;
+}
+
+.design-dev .des-text h4
+{
+    font-size: 2rem;
+    padding: 3% 0;
+    font-family: 'Merriweather', serif;
+}
+.design-dev .des-text p
+{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+}
+.design-dev .des-pic img
+{
+    height: 15rem;
+    width: 15rem;
+}
+.hr2
+{
+    border-top: 10px dotted #15e0ee;
+    width: 15%;
+    margin: auto;
+    margin-top: 8%;
+
+}
+.competitive .com-text h4
+{
+    font-size: 2rem;
+    padding-bottom: 3%;
+    font-family: 'Merriweather', serif;
+}
+.competitive .com-text p
+{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+}
+.competitive .com-pic img
+{
+    height: 15rem;
+    width: 15rem;
+    float: right;
+}
+
+/* language section */
+
+.lang-mid
+{
+    width: 55%;
+    margin: auto;
+    padding-top: 3%;
+}
+.lan-gif img
+{
+    height: 15rem;
+    width: 15rem;
+}
+.lang-text h2
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.lang-text ul
+{
+    list-style: none;
+
+}
+.lang-text ul li
+{
+    display: inline-block;
+    border: 1px solid rgb(105, 95, 95);
+    padding: 10px 15px;
+    margin: 5px 5px;
+    border-radius: 7%;
+    
+}
+.lang-text ul li:hover
+{
+    background-image: url("../images/fire-ball.gif");
+    background-color: rgba(0, 0, 0, .5);
+    background-position: center;
+    color: #15e0ee;
+}
+
+/* contract me section */
+
+.contract
+{
+    background-color: #0c4b5c;
+    border-bottom: 2px solid #15e0ee;
+}
+.cont-mid
+{
+    width: 80%;
+    margin: auto;
+}
+.con-details
+{
+    color: #15e0ee;
+}
+.con-box
+{
+    padding: 5% 0;
+}
+.con-details ul
+{
+    list-style: none;
+    padding: 0;
+}
+.con-details a
+{
+    text-decoration: none;
+    color: #15e0ee;
+}
+.send-message
+{
+    text-align: right;
+}
+.message-box
+{
+    margin-top: 13%;
+}
+.send-message input
+{
+    margin: auto;
+}
+.text-button
+{
+    padding: 10px 40px;
+    background-color: #c8c8c8;
+    border: transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+.text-button:hover
+{
+    border: 2px solid #15e0ee;
+}
+.submit-button
+{
+    padding: 10px 30px;
+    background-color: #008CBA;
+    border: transparent;
+}
+.submit-button:hover
+{
+    border: 1px solid #15e0ee;
+    color: #15e0ee;
+}
+
+/* social media section */
+
+.follow
+{
+    background-color: #0c4b5c;
+}
+.follow-mid
+{
+    width: 80%;
+    margin: auto;
+}
+.follow-text h4
+{
+    color: #15e0ee;
+    margin-top: 4%;
+}
+.follow-icon
+{
+    text-align: right;
+}
+.follow-icon ul
+{
+    list-style: none;
+
+}
+.follow-icon ul li
+{
+    display: inline-block;
+    padding: 0 3%;
+}
+.follow-icon ul li a
+{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #15e0ee;
+}
+.facebook:hover
+{
+    color:  #0165E1;
+}
+.twitter:hover
+{
+    color: #1DA1F2;
+}
+.linkedin:hover
+{
+    color: #0A66C2;
+}
+.github:hover
+{
+    color: #171515;
+}
+
+/* copyright section */
+
+.copyright
+{
+    border-top: 2px solid #15e0ee;
+    background-color: #0c4b5c;
+    text-align: center;
+    color: #15e0ee;
+    padding: 0;
+    height: 3.5rem;
+}
+.copyright p
+{
+    margin: 1%;
+}
+
+/* team section */
+.notice
+{
+    margin-top: 20rem;
+    text-align: center;
+}
+.notice h1
+{
+    color: red;
+}

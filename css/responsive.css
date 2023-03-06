@@ -1,0 +1,159 @@
+@media (max-width:1250px)
+{
+    .lang-mid
+    {
+        width: 65%;
+    }
+}
+@media (max-width:1000px)    
+{
+    .myself
+    {
+        top:10%;
+        left: 5%;
+    }
+    .lang-text
+    {
+        padding-bottom: 5%;
+    }
+}
+@media (max-width:900px)    
+{
+    .myself
+    {
+        left:3%;
+    }
+}
+@media (max-width:800px)    
+{
+    
+    .myself .gif-pic
+    {
+        width: 30%;
+        height: 30%;
+ 
+    }
+    .intro h2
+    {
+        color: #c3ffff;
+        border-radius: 10%;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    .intro p
+    {
+        color: #c3ffff;
+        border-radius: 7%;
+        padding: 0 2%;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    .meDetails
+    {
+        width: 70%;
+    }
+    
+}
+@media (max-width:769px)
+{
+    .send-message
+    {
+        text-align: center;
+    }
+    .message-box
+    {
+        margin: 5% 0;
+    }
+}
+ @media (max-width:700px)
+{
+    .myself
+    {
+        left: 14%;
+        top: 10%;
+    }
+    .intro
+    {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: .8rem;
+        padding: 5px 8px;
+    }
+
+    .intro h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 3.2rem;
+        background-color: transparent;
+    }
+    .intro p
+    {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .myself .gif-pic
+    {
+        width: 20%;
+        height: 20%;
+ 
+    }
+    .com-text h4
+    {
+        margin-top: 10%;
+    }
+    
+}
+@media (max-width:500px)
+{
+    .myself
+    {
+        left: 2%;
+        top: 20%;
+    }
+    .intro h2
+    {
+
+        font-size: 2.5rem;
+
+    }
+    .intro p
+    {
+        font-size: .8rem;
+    }
+    .myself .gif-pic
+    {
+        width: 20%;
+        height: 20%;
+ 
+    }
+    .back
+    {
+        height: 22rem;
+    }
+    .meDetails,.skillMid, .lang-mid
+    {
+        width: 80%;
+    }
+    .cont-mid, .follow-mid
+    {
+        width: 90%;
+    }
+    .mepic
+    {
+        height: 13rem !important;
+        width: 13rem !important;
+    }
+    .top-hr, .bottom-hr
+    {
+        width: 80%;
+    }
+    .hr2
+    {
+        width: 25%;
+    }
+    .copyright p
+    {
+        padding-top: 3%;
+    }
+
+}
